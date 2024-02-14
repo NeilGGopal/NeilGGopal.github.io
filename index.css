@@ -1,0 +1,26 @@
+body {
+    background-color: bisque;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 25vw;
+    margin: 3vh;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #DC362D;
+}
+
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 3vh;
+    margin: 5vh;
+}
