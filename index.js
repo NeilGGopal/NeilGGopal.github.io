@@ -1,4 +1,5 @@
 const noButton = document.getElementById("no-button")
+const noButtonAnchor = document.getElementById("no-button-anchor")
 let count = 0;
 let padding = 3;
 
@@ -25,10 +26,11 @@ noButton.addEventListener("click", function() {
         noButton.innerText = "Okay, I see how it is. Fine! You've forced my final option..."
     } else if (count == 10) {
         noButton.innerText = "I know how to change this text! Which means..."
-    } else if (count >= 11) {
+    } else if (count == 11) {
         noButton.innerText = "Yes but in red"
         noButton.style.color = "#DC362D"
     } else {
+        noButtonAnchor.href = "index_2.html"
         window.location.href = "https://neilggopal.github.io/index_2.html"
     }
     count += 1;
