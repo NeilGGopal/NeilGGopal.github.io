@@ -1,0 +1,28 @@
+body {
+    background-color: bisque;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 3vh;
+    margin: 5vh;
+}
+
+img {
+    width: 15vw;
+}
+
+h8 {
+    color: #DC362D;
+}
